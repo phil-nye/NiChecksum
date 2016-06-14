@@ -10,3 +10,5 @@ Probably want to change from using Java Security to BouncyCastle at some point.
 Runtime could be improved.
 
 Could also include ability to use other hash modes.
+
+Merge "calculateSHA1(byte[])" and "calculateMD5(byte[])" into a single function: "calculateHash(byte[], String mode)"
